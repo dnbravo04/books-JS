@@ -1,13 +1,20 @@
+if(process.env.NODE_ENV !== 'production'){
+    require('dotenv').config();
+}
+
+
+
 const express = require('express');
 const morgan = require('morgan');
 const multer = require('multer');
-const path = require('path')
+const path = require('path');
 
 //Initializations
 const app = express();
+require('./database')
 
 //Settings
-app.set('port', 3000);
+app.set('port', process.env.PORT || 4000);
 
 //Middlewares
 app.use(morgan('dev'));
