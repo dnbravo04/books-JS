@@ -1,1 +1,1 @@
-{"version":3,"file":"css/bundle.css","mappings":"AAAA;IACI,yBAAyB;AAC7B,C","sources":["webpack://js-fullstack/./Frontend/styles/styles.css"],"sourcesContent":["body {\n    background-color: #ced6e0;\n}"],"names":[],"sourceRoot":""}
+{"version":3,"file":"css/bundle.css","mappings":"AAAA;IACI,yBAAyB;AAC7B,C","sources":["webpack://js-fullstack/./Frontend/styles/styles.css"],"sourcesContent":["body {\r\n    background-color: #ced6e0;\r\n}"],"names":[],"sourceRoot":""}
